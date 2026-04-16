@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mirmic — Make It Right, Make It Cheap</title>
+  <meta name="description" content="Mirmic builds thoughtful consumer software without a markup. Make it right, make it cheap.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div class="logo-wrap">
+        <svg class="logo-mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="32" cy="32" r="28" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="32" cy="32" r="4" fill="currentColor"/>
+          <circle cx="32" cy="32" r="14" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.45"/>
+        </svg>
+        <h1 class="wordmark">mirmic</h1>
+      </div>
+      <p class="tagline">Make It Right, Make It Cheap</p>
+    </header>
+
+    <section class="manifesto">
+      <p class="lead">
+        Software should work well and cost what it costs.
+        No dark patterns, no subscription creep, no data harvesting.
+      </p>
+      <p class="lead">
+        We ship thoughtful apps for people who notice the difference.
+      </p>
+    </section>
+
+    <section class="values">
+      <div class="value">
+        <h3>Right</h3>
+        <p>Built with care. Edges polished. Privacy assumed, not asked.</p>
+      </div>
+      <div class="value">
+        <h3>Cheap</h3>
+        <p>Priced for the product, not for the growth curve.</p>
+      </div>
+      <div class="value">
+        <h3>Yours</h3>
+        <p>Your data stays on your devices. We can't see it, sell it, or lose it.</p>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2 class="section-title">Products</h2>
+      <a class="product-card" href="https://zzzcam.com">
+        <div class="product-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="24" cy="36" rx="8" ry="3" fill="currentColor" opacity="0.3"/>
+            <rect x="20" y="26" width="8" height="10" fill="currentColor"/>
+            <circle cx="24" cy="18" r="13" fill="currentColor"/>
+            <circle cx="24" cy="18" r="6" fill="#0a0a0a"/>
+            <circle cx="24" cy="18" r="3" fill="currentColor" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="product-info">
+          <h3>ZzzCam</h3>
+          <p>Night camera and monitor app. Peer-to-peer, no cloud. Turn two devices into a baby monitor that just works.</p>
+          <span class="product-link">zzzcam.com &rarr;</span>
+        </div>
+      </a>
+    </section>
+
+    <footer>
+      <p class="contact">
+        <a href="mailto:hello@mirmic.co">hello@mirmic.co</a>
+      </p>
+      <p class="copyright">&copy; <span id="year">2026</span> Mirmic</p>
+    </footer>
+  </main>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
